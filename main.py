@@ -1,9 +1,10 @@
-def hello():
-     print("hi")
+def hello() -> None:
+    print("hi")
 
 
-def bye():
-     print("bye")
+def bye() -> None:
+    print("bye")
 
 
-print(hello())
+if __name__ == "__main__":
+    hello()
